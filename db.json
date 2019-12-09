@@ -1,0 +1,12 @@
+{
+    "posts": [
+        {"title": "Nike Air Max 270 React (Pop Art)", "price": "$150", "product_link": "https://www.nike.com/t/air-max-270-react-pop-art-mens-shoes-DcpzJF/AO4971-300", "img_link": null},
+        {"title": "Nike Air Max 270 React (Geometric Abstract)", "price": "$150", "product_link": "https://www.nike.com/t/air-max-270-react-geometric-abstract-womens-shoe-6KXPPH/AT6174-101", "img_link": null},
+        {"title": "Nike Joyride CC3 Setter", "price": "$180", "product_link": "https://www.nike.com/t/joyride-cc3-setter-mens-shoe-WW6qfW/AT6395-100", "img_link": null},
+        {"title": "Nike Joyride Optik", "price": "$180", "product_link": "https://www.nike.com/t/joyride-optik-womens-shoe-Ml2PdJ/AJ6844-005", "img_link": null},
+        {"title": "Nike Joyride Run Flyknit", "price": "$180", "product_link": "https://www.nike.com/t/joyride-run-flyknit-womens-running-shoe-ZPRFSV/AQ2731-601", "img_link": null}
+    ],
+    "profile": {
+      "name": "typicode"
+    }
+  }

@@ -1,0 +1,34 @@
+/* @media all and (min-width: 480px) {
+  .Signup {
+    padding: 60px 0;
+  }
+
+  .Signup form {
+    margin: 0 auto;
+    max-width: 320px;
+    height: 10;
+  }
+} */
+/* .FormFields {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 80% 20%;
+} */
+
+.error-message {
+  margin-top: 0;
+  color: red;
+  display: flex;
+  justify-content: center;
+}
+body {
+  color: black;
+}
+.Signup form span.help-block {
+  font-size: 14px;
+  padding-bottom: 10px;
+  color: #999;
+}
+.Signup input {
+  color: black;
+}

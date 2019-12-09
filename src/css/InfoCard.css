@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.row {
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.infocard {
+  position: relative;
+  float: left;
+  width: 20%;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  position: absolute;
+  bottom: 15%;
+  left: 15%;
+}
+
+.price {
+  position: absolute;
+  bottom: 0%;
+  left: 15%;
+}
+
+.shoesimage {
+  width: 200;
+}
+
+.time {
+  position: absolute;
+  top: 0%;
+  left: 15%;
+}
