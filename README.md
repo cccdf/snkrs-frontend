@@ -6,6 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Surge link:  lumpy-back.surge.sh
 
+## Youtube link
+
+[https://www.youtube.com/watch?v=LF0J2i6pIG8](https://www.youtube.com/watch?v=LF0J2i6pIG8)
+
 ## For the other related repositories(scrapy crawler, backend)
 
 1. [Frontend project](https://github.com/cccdf/snkrs-frontend)
