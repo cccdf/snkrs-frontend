@@ -7,6 +7,9 @@ import nike from "../img/nike.jpg";
 import yeezy from "../img/yeezy.jpg";
 import InfoCard from "../components/InfoCard";
 import emitter from "../util/events";
+import { Helmet } from "react-helmet";
+
+const TITLE = "Home";
 
 async function getNikeApi() {
   let response = await fetch("https://snkr-news-api.herokuapp.com/nike");
@@ -54,6 +57,9 @@ export default class HomePage extends React.Component {
     } else {
       return (
         <div>
+          <Helmet>
+            <title>{TITLE}</title>
+          </Helmet>
           <div className="row">
             <div
               className="column"

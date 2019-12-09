@@ -4,6 +4,9 @@ import { Redirect } from "react-router-dom";
 import axios from "axios";
 import { Row, Col } from "react-bootstrap";
 import emitter from "../util/events";
+import { Helmet } from "react-helmet";
+
+const TITLE = "Login";
 
 export default class LoginPage extends React.Component {
   constructor(props) {
@@ -93,6 +96,9 @@ export default class LoginPage extends React.Component {
     }
     return (
       <div>
+        <Helmet>
+          <title>{TITLE}</title>
+        </Helmet>
         <div>
           {this.state.pwdwrong ? (
             <UncontrolledAlert color="info">

@@ -3,6 +3,9 @@ import Messages from "./Messages";
 import Input from "./Input";
 import "../css/ChatRoom.css";
 import emitter from "../util/events";
+import { Helmet } from "react-helmet";
+
+const TITLE = "ChatRoom";
 
 function randomName() {
   const adjectives = [
@@ -193,6 +196,9 @@ export default class ChatRoom extends React.Component {
   render() {
     return (
       <div className="Chatscreen">
+        <Helmet>
+          <title>{TITLE}</title>
+        </Helmet>
         <Messages
           messages={this.state.messages}
           currentMember={this.state.member}

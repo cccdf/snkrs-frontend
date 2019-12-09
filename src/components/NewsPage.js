@@ -3,6 +3,9 @@ import { Row, Col, ListGroup, ListGroupItem } from "react-bootstrap";
 import { Spinner } from "reactstrap";
 import "../css/News.css";
 import emitter from "../util/events";
+import { Helmet } from "react-helmet";
+
+const TITLE = "News";
 
 async function getNewsApi() {
   let response = await fetch("https://snkr-news-api.herokuapp.com/news");
@@ -36,6 +39,9 @@ export default class NewsPage extends React.Component {
   render() {
     return (
       <Fragment>
+        <Helmet>
+          <title>{TITLE}</title>
+        </Helmet>
         {this.state.loading ? (
           <div className="loading">
             <Spinner color="primary" />

@@ -9,6 +9,9 @@ import axios from "axios";
 import { Row, Col } from "react-bootstrap";
 import { Redirect } from "react-router-dom";
 import emitter from "../util/events";
+import { Helmet } from "react-helmet";
+
+const TITLE = "Profile";
 
 async function getUserInfo() {
   return axios
@@ -134,6 +137,9 @@ export default class ProfilePage extends React.Component {
     }
     return (
       <div>
+        <Helmet>
+          <title>{TITLE}</title>
+        </Helmet>
         {this.state.send ? (
           <UncontrolledAlert color="info">
             Update successfully

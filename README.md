@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Deployment
 
-Surge link:  picayune-egg.surge.sh
+Surge link:  lumpy-back.surge.sh
 
 ## For the other related repositories(scrapy crawler, backend)
 

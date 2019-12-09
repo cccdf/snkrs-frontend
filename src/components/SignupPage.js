@@ -5,6 +5,9 @@ import { Link, Redirect } from "react-router-dom";
 import { Row, Col } from "react-bootstrap";
 import "../css//SignupPage.css";
 import axios from "axios";
+import { Helmet } from "react-helmet";
+
+const TITLE = "SignUp";
 
 export default class SignupPage extends React.Component {
   constructor(props) {
@@ -174,6 +177,13 @@ export default class SignupPage extends React.Component {
     if (this.state.redirectToPostsPage) {
       return <Redirect to="/" />;
     }
-    return <div className="SignUp">{this.renderForm()}</div>;
+    return (
+      <div className="SignUp">
+        <Helmet>
+          <title>{TITLE}</title>
+        </Helmet>
+        {this.renderForm()}
+      </div>
+    );
   }
 }
