@@ -9,7 +9,7 @@
     "boostrap": "^2.0.0",
     "bootstrap": "^4.3.1",
     "customize-cra": "^0.7.0",
-    "mongoose": "^5.7.1",
+    "mongoose": "^5.7.5",
     "node-sass": "^4.13.0",
     "react": "^16.10.0",
     "react-bootstrap": "^1.0.0-beta.12",
